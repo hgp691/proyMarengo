@@ -8,3 +8,5 @@ sudo mkdir /mnt/usb/logs/
 #instalar requests
 cd /mnt/usb/ && git clone git://github.com/kennethreitz/requests.git
 cd /mnt/usb/requests/ && sudo python setup.py install -y
+
+#copiar los archivos de inicio

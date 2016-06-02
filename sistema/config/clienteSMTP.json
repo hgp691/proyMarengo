@@ -1,0 +1,6 @@
+{
+  "FROM": "profevillalobos@gmail.com",
+  "DIRECCION": "smtp.gmail.com",
+  "PUERTO": 587,
+  "START_TLS": false
+}
