@@ -1,7 +1,8 @@
 {
-  "FROM": "profevillalobos@gmail.com",
-  "DIRECCION": "smtp.gmail.com",
-  "PUERTO": 587,
-  "START_TLS": false,
-  "CLAVE": "clave del correo"
+	"ENVIAR": "NO",
+  	"FROM": "su_cuenta_@gmail.com",
+  	"DIRECCION": "smtp.gmail.com",
+  	"PUERTO": 587,
+  	"START_TLS": "YES",
+  	"CLAVE": "clave del correo"
 }
