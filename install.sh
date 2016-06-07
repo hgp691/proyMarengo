@@ -1,6 +1,8 @@
 #instalacion de archivos
 
 #creacion de las carpetas en usb que guardan los datos
+sudo mkdir /mnt/usb
+sudo mount /dev/sda1/ /mnt/usb/
 sudo mkdir /mnt/usb/config/
 sudo mkdir /mnt/usb/datos/
 sudo mkdir /mnt/usb/logs/

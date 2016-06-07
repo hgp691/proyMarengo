@@ -10,7 +10,6 @@ top.resizable(width=False, height=False)
 #top.attributes('-fullscreen', True)
 # Code to add widgets will go here...
 
-
 def raise_frame(Frame):
     Frame.tkraise()
 
