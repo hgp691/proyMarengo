@@ -28,8 +28,15 @@ sudo cp /var/proyMarengo/sistema/crontab /etc/crontab
 #copiar los archivos de configuracion
 sudo cp /var/proyMarengo/sistema/config/* /mnt/usb/config/ -r
 
-#eliminar lo que no se usa en proyMarengo
-sudo rm /var/proyMarengo/sistema -r
-
 #ejecutar configuracion gráfica
 sudo apt-get install python-tk -y
+
+#instalar servidor web
+sudo apt-get install apache2 -y
+sudo apt-get install php5 -y
+
+sudo mkdir /var/www/html/webservices
+sudo cp /var/proyMarengo/webservices/* /var/www/html/webservices/
+
+#eliminar lo que no se usa en proyMarengo
+sudo rm /var/proyMarengo/sistema -r
